@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - WaterSpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 0
+    uniqueID: 4117928527
+    locked: 0
+  - name: 1
+    uniqueID: 3831076377
+    locked: 0
+  - name: 2
+    uniqueID: 642143511
+    locked: 0
+  - name: 3
+    uniqueID: 1129469837
     locked: 0
