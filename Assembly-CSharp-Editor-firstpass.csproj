@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{44A5CB64-DB00-6603-C51E-7146F5F5A3AA}</ProjectGuid>
+    <ProjectGuid>{85CF7483-A2B0-C84B-313F-BFCC270D120C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -66,10 +66,10 @@
     <Compile Include="Assets\Plugins\Custom 2D Colliders\Scripts\Editor\RoundedBoxCollider2D_Editor.cs" />
     <Compile Include="Assets\Plugins\Custom 2D Colliders\Scripts\Editor\StarCollider2D_Editor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/lidiadiaznavarro/Documents/GitHub/MobileGameDesign/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/lidiadiaznavarro/HdM/S2/Mobile Game Design/repo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/lidiadiaznavarro/Documents/GitHub/MobileGameDesign/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/lidiadiaznavarro/HdM/S2/Mobile Game Design/repo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -362,7 +362,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6D32A96C-C602-0A98-C5C7-A0EDBBD1A9A8}</Project>
+      <Project>{9C217FCC-3DF2-05ED-D81D-A52A05A952B2}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
