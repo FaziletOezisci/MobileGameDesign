@@ -480,9 +480,32 @@ Prefab:
       value: 
       objectReference: {fileID: 1624607702375872, guid: 42337375f9d914eea973adb4ec631f17,
         type: 2}
+    - target: {fileID: 1996585688381766, guid: 97dfcd19af872ac4f875eff1ec60a49e, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97dfcd19af872ac4f875eff1ec60a49e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &498009268 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1537049623925436, guid: 70617c7b7d89848008cbba2c21cc7960,
+    type: 2}
+  m_PrefabInternal: {fileID: 784115677}
+--- !u!114 &498009269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498009268}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2811c82408ad42ae82542ea9ea67db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2064527773}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: -10}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +517,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -552,7 +576,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 1
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 0
@@ -572,6 +596,20 @@ Transform:
   m_Father: {fileID: 1954962393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2811c82408ad42ae82542ea9ea67db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2064527773}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: -0.5}
 --- !u!4 &732947156 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4175885932071986, guid: da5f8eb2ae20a4efc9a201779596dc53,
@@ -884,6 +922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484804847}
   - component: {fileID: 1484804846}
+  - component: {fileID: 1484804848}
   m_Layer: 0
   m_Name: bg_sky
   m_TagString: Untagged
@@ -949,6 +988,17 @@ Transform:
   m_Father: {fileID: 1156648957}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1484804848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1484804845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef49d832f3dea4ba5853ea1b63ad94dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1532907510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1124,7 @@ GameObject:
   - component: {fileID: 1950765070}
   - component: {fileID: 1950765073}
   - component: {fileID: 1950765072}
+  - component: {fileID: 1950765069}
   m_Layer: 0
   m_Name: test_map
   m_TagString: Untagged
@@ -1081,6 +1132,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1950765069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950765068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef49d832f3dea4ba5853ea1b63ad94dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1950765070
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1436,7 +1498,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.24579997
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1

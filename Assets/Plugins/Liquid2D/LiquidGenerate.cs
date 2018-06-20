@@ -18,4 +18,9 @@ public class LiquidGenerate : MonoBehaviour {
 			temp.transform.localPosition = new Vector3 (x, y, 0);
 		}
 	}
+
+	void Update()
+	{
+        
+	}
 }
