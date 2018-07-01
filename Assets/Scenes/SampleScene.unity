@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 1889688116}
   - component: {fileID: 1889688115}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2017,7 +2017,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1355091181888202, guid: d5fa6670965fe409da85987d9c916f59, type: 2}
       propertyPath: m_Name
-      value: Coin
+      value: light
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

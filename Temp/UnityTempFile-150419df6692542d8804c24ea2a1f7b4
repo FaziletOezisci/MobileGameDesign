@@ -185,9 +185,9 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 'Assets/Scripts/cameraFollow.cs'
-'Assets/Scripts/Collect.cs'
 'Assets/Scripts/FluidAmountManager.cs'
 'Assets/Scripts/GameManager.cs'
+'Assets/Scripts/LightCollect.cs'
 'Assets/Scripts/moveScene.cs'
 'Assets/Scripts/Rotate.cs'
 -lib:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity'
