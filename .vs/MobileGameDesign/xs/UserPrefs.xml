@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{14F99A8D-C75A-1ECC-EA71-E50B948E7D2A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/cameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LightCollect.cs">
     <Files>
-      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="13" Column="26" />
-      <File FileName="Assets/Scripts/moveScene.cs" Line="15" Column="34" />
-      <File FileName="Assets/Scripts/cameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LightCollect.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
