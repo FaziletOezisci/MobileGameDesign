@@ -886,17 +886,17 @@ Prefab:
     - target: {fileID: 114467290702314666, guid: 97dfcd19af872ac4f875eff1ec60a49e,
         type: 2}
       propertyPath: _numLiquid
-      value: 20
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 114467290702314666, guid: 97dfcd19af872ac4f875eff1ec60a49e,
         type: 2}
       propertyPath: _width
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114467290702314666, guid: 97dfcd19af872ac4f875eff1ec60a49e,
         type: 2}
       propertyPath: _height
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1996585688381766, guid: 97dfcd19af872ac4f875eff1ec60a49e, type: 2}
       propertyPath: m_Icon
