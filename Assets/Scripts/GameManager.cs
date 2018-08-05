@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
     float speed = 50.0f;
 
 	void Update () {
-        RotateScenario();
+        //RotateScenario();
     }
 
     public void RotateScenario() {
