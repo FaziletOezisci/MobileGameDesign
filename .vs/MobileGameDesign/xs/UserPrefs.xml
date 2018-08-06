@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{14F99A8D-C75A-1ECC-EA71-E50B948E7D2A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotate.cs">
     <Files>
       <File FileName="Assets/Scripts/LightCollect.cs" Line="1" Column="1" />
@@ -10,6 +11,9 @@
       <File FileName="Assets/Scripts/RotateWorld.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+=======
+  <MonoDevelop.Ide.Workbench />
+>>>>>>> 5ecd5a5a065ce3e0de5be9f67994054eb76421ef
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
