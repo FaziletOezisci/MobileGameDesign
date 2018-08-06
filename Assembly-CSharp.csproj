@@ -57,15 +57,6 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
@@ -76,8 +67,7 @@
     <Compile Include="Assets\Scripts\moveScene.cs" />
     <Compile Include="Assets\Scripts\PathFollower.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
-    <Compile Include="Assets\Scripts\Swipe.cs" />
-    <Compile Include="Assets\Scripts\SwipeWall.cs" />
+    <Compile Include="Assets\Scripts\RotateWorld.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Shared/Unity/MobileGameDesign/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
