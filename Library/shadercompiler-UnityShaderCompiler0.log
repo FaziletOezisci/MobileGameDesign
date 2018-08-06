@@ -1,5 +1,6 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: initializeCompiler
+<<<<<<< HEAD
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: compileSnippet
@@ -84,4 +85,8 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+=======
+Cmd: preprocess
+  insize=1033 outsize=295 ok=1
+>>>>>>> 92e953b2e3528818312aedbe3282551b7afa5106
 Cmd: initializeCompiler
