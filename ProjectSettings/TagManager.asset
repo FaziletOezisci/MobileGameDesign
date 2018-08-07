@@ -7,6 +7,7 @@ TagManager:
   - WaterSpawnPoint
   - Coin
   - Ship
+  - destroyer
   layers:
   - Default
   - TransparentFX

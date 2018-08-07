@@ -1,8 +1,9 @@
 iOS
 PlayerPath?
-/Users/Shared/Unity/Polaris-Builds/PolarisTest/PolarisTest/PolarisTest/PolarisTest/PolarisTest/PolarisTest2
+/Users/Shared/Unity/Polaris-Builds/PolarisTest3
 SceneListBegin?
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/menuScene.unity
+Assets/Scenes/Level1.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -16,6 +17,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyWall
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -95,6 +97,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 487f58937ff404173a6e6befec6b6391 Assembly-CSharp.dll:.FluidAmountManager
+f83a7e3bc2ee2ddddd54ef386238d241 Assembly-CSharp.dll:.PathFollower
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -159,4 +162,9 @@ fda9fd459d18e1a5c3bce37a1612a988 Assembly-CSharp-firstpass.dll:.CapsuleCollider2
 b26c692579f8f19a7a11eecab6de1a96 Assembly-CSharp-firstpass.dll:.EllipseCollider2D
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.Rotate
 701e09fe0804e758b2a6a23c5762ffab Assembly-CSharp-firstpass.dll:.RoundedBoxCollider2D
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyWall
+dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.RotateWorld
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScriptSuperLight
+afb84155126321616132809016ad7aa4 Assembly-CSharp.dll:.TimerControler
+ced30e05882c86a594e1cd7d958c81c0 Assembly-CSharp.dll:.HUDTimeControler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SuperLightCollect
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScript

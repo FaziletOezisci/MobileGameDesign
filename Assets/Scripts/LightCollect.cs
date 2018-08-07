@@ -6,7 +6,9 @@ public class LightCollect : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-			Destroy (gameObject);
+		ScoreTextScript.lightAmount += 1;
+
+		Destroy (gameObject);
 
 	}
 }

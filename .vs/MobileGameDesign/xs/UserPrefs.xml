@@ -1,8 +1,15 @@
 ﻿<Properties StartupConfiguration="{14F99A8D-C75A-1ECC-EA71-E50B948E7D2A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PathFollower.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/shipManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PathFollower.cs" Line="31" Column="2" />
+      <File FileName="Assets/Scripts/LightCollect.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="13" Column="11" />
+      <File FileName="Assets/Scripts/moveScene.cs" Line="15" Column="61" />
+      <File FileName="Assets/Plugins/Custom 2D Colliders/Scripts/BezierCurveCollider2D.cs" Line="162" Column="7" />
+      <File FileName="Assets/Scripts/Rotate.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/RotateWorld.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/uiManager.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/shipManager.cs" Line="17" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
