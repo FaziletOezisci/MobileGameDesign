@@ -6,9 +6,10 @@ public class SuperLightCollect : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col)
     {
-
-        ScoreTextScriptSuperLight.lightAmountSuper += 1;
-        Destroy(gameObject);
-
+		if (col.gameObject.tag == "Ship")
+		{
+			Destroy(gameObject);
+			ScoreTextScriptSuperLight.lightAmountSuper += 1;
+		}
     }
 }

@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class LightCollect : MonoBehaviour {
 
+
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		ScoreTextScript.lightAmount += 1;
-
-		Destroy (gameObject);
-
-	}
+		if (col.gameObject.tag == "Ship")
+		{
+			Destroy(gameObject);
+			ScoreTextScript.lightAmount += 1;
+		}
+      
+    }
+    
 }

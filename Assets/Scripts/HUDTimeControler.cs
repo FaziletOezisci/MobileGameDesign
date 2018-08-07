@@ -8,6 +8,7 @@ public class HUDTimeControler : MonoBehaviour {
 	public Text timerText;
 	public TimerControler Timer;
 
+
 	// Use this for initialization
 	void Start () {
 		
