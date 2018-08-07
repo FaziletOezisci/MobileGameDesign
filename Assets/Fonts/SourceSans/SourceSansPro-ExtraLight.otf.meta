@@ -11,10 +11,7 @@ TrueTypeFontImporter:
   fontName: Source Sans Pro
   fontNames:
   - Source Sans Pro
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 29652d241e7cb447690c2be4620536be, type: 3}
-  - {fileID: 12800000, guid: 34985e7cc3deb4c1d9cc87a3c7481bd7, type: 3}
-  - {fileID: 12800000, guid: 331f053f2b2df4423bdb22a5f115c40f, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
