@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\ScoreTextScript.cs" />
     <Compile Include="Assets\Scripts\ScoreTextScriptSuperLight.cs" />
     <Compile Include="Assets\Scripts\shipManager.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\SuperLightCollect.cs" />
     <Compile Include="Assets\Scripts\TimerControler.cs" />
     <Compile Include="Assets\Scripts\uiManager.cs" />
