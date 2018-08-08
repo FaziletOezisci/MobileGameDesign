@@ -1,8 +1,8 @@
 iOS
 PlayerPath?
-/Users/Shared/Unity/Polaris-Builds/PolarisTest3
+/Users/Shared/Unity/Polaris-Builds/PolarisTest4/PolarisTest4
 SceneListBegin?
-Assets/Scenes/menuScene.unity
+Assets/Scenes/StartMenuScreen.unity
 Assets/Scenes/Level1.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -168,3 +168,6 @@ afb84155126321616132809016ad7aa4 Assembly-CSharp.dll:.TimerControler
 ced30e05882c86a594e1cd7d958c81c0 Assembly-CSharp.dll:.HUDTimeControler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SuperLightCollect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScript
+4c7845259cdbe85fad5717acbc330d18 Assembly-CSharp.dll:.uiManager
+674e75347d41f541d464b863c58c6d6b Assembly-CSharp.dll:.shipManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartGame
