@@ -59,6 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\CameraMover\CameraMover.cs" />
+    <Compile Include="Assets\Plugins\CameraMover\MyGUI.cs" />
     <Compile Include="Assets\Plugins\Custom 2D Colliders\Scripts\ArcCollider2D.cs" />
     <Compile Include="Assets\Plugins\Custom 2D Colliders\Scripts\BezierCurveCollider2D.cs" />
     <Compile Include="Assets\Plugins\Custom 2D Colliders\Scripts\CapsuleCollider2D.cs" />
