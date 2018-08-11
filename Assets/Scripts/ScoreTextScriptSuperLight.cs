@@ -17,6 +17,6 @@ public class ScoreTextScriptSuperLight : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        text.text = lightAmountSuper.ToString();
+        text.text = "00"+ lightAmountSuper.ToString();
     }
 }

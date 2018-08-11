@@ -15,6 +15,15 @@ public class ScoreTextScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		text.text = lightAmount.ToString();
+        if (lightAmount <10){
+            text.text = "00"+ lightAmount.ToString();
+        }
+        if ((lightAmount < 100) && (lightAmount >10))
+        {
+            text.text = "0" + lightAmount.ToString();
+        }if (lightAmount > 100) {
+            text.text = lightAmount.ToString();
+        }
+		
 	}
 }

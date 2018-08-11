@@ -59,22 +59,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\changeFirstTime.cs" />
-    <Compile Include="Assets\MainCameraScript.cs" />
+    <Compile Include="Assets\Scripts\BGSoundMusic.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\Scripts\changeFirstTime.cs" />
     <Compile Include="Assets\Scripts\DestroyWall.cs" />
     <Compile Include="Assets\Scripts\FluidAmountManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GoToCredits.cs" />
+    <Compile Include="Assets\Scripts\GoToStartScreen.cs" />
     <Compile Include="Assets\Scripts\HUDTimeControler.cs" />
     <Compile Include="Assets\Scripts\LightCollect.cs" />
+    <Compile Include="Assets\Scripts\MainCameraScript.cs" />
     <Compile Include="Assets\Scripts\moveScene.cs" />
     <Compile Include="Assets\Scripts\PathFollower.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\RotateWorld.cs" />
     <Compile Include="Assets\Scripts\ScoreTextScript.cs" />
     <Compile Include="Assets\Scripts\ScoreTextScriptSuperLight.cs" />
+    <Compile Include="Assets\Scripts\SelectLevel.cs" />
     <Compile Include="Assets\Scripts\shipManager.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\SuperLightCollect.cs" />

@@ -48,7 +48,7 @@ public class CameraSwitch : MonoBehaviour {
     {
 
         cameraChangeCounter();
-        Debug.Log("Go to Credits!");
+  //      Debug.Log("Go to Credits!");
 
     }
 
