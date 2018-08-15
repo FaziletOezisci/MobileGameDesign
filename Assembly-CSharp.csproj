@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\shipManager.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\SuperLightCollect.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TimerControler.cs" />
     <Compile Include="Assets\Scripts\uiManager.cs" />
     <None Include="Assets\Fonts\calibri\sharefonts.net.txt" />
