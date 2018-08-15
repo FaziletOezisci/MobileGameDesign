@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\MainCameraScript.cs" />
     <Compile Include="Assets\Scripts\moveScene.cs" />
     <Compile Include="Assets\Scripts\PathFollower.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\RotateWorld.cs" />
     <Compile Include="Assets\Scripts\ScoreTextScript.cs" />
