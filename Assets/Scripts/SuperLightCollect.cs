@@ -9,7 +9,9 @@ public class SuperLightCollect : MonoBehaviour {
 		if (col.gameObject.tag == "Ship")
 		{
 			Destroy(gameObject);
-			ScoreTextScriptSuperLight.lightAmountSuper += 1;
+            ScoreTextScript.lightAmount += 10;
+            //old
+			//ScoreTextScriptSuperLight.lightAmountSuper += 1;
 		}
     }
 }

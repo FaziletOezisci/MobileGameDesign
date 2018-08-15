@@ -64,10 +64,12 @@
     <Compile Include="Assets\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Scripts\changeFirstTime.cs" />
     <Compile Include="Assets\Scripts\DestroyWall.cs" />
+    <Compile Include="Assets\Scripts\Distance.cs" />
     <Compile Include="Assets\Scripts\FluidAmountManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GoToStartScreen.cs" />
     <Compile Include="Assets\Scripts\HUDTimeControler.cs" />
+    <Compile Include="Assets\Scripts\LevelComplete.cs" />
     <Compile Include="Assets\Scripts\LightCollect.cs" />
     <Compile Include="Assets\Scripts\MainCameraScript.cs" />
     <Compile Include="Assets\Scripts\moveScene.cs" />

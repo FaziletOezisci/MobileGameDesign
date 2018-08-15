@@ -44,4 +44,12 @@ public class PauseMenu : MonoBehaviour {
         SceneManager.LoadScene("StartMenuScreen");
 
     }
+
+    public void PlayAgain(){
+        
+        Time.timeScale = 1;
+        GameIsPaused = false;
+        SceneManager.LoadScene("Level1");
+
+    }
 }
