@@ -52,4 +52,8 @@ public class PauseMenu : MonoBehaviour {
         SceneManager.LoadScene("Level1");
 
     }
+
+    public void Exit(){
+        Application.Quit();
+    }
 }

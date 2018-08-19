@@ -7,6 +7,7 @@ public class LiquidGenerate : MonoBehaviour {
 	public float _width = 1;
 	public float _height = 1;
 	public GameObject _prefab;
+
 	
 	// Use this for initialization
 	void Start () {

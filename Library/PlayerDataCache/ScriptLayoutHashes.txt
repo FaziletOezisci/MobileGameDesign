@@ -1,8 +1,9 @@
 iOS
 PlayerPath?
-/Users/Shared/Unity/Polaris-Builds/PolarisTest4/PolarisTest4
+/Users/Shared/Unity/Polaris-Builds/PolarisTest6
 SceneListBegin?
 Assets/Scenes/StartMenuScreen.unity
+Assets/Scenes/SelectLevel.unity
 Assets/Scenes/Level1.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -83,6 +84,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartGame
 fc1a68fe3da1edb5cff85a9deb9d20b0 Assembly-CSharp.dll:.cameraFollow
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -123,6 +125,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 b3daa22dca2be6ad789dad30b5a24a75 Assembly-CSharp-firstpass.dll:.ArcCollider2D
 6289e88fb4a6e0a2f50a3f66e2945539 Assembly-CSharp-firstpass.dll:.StarCollider2D
+4c7845259cdbe85fad5717acbc330d18 Assembly-CSharp.dll:.uiManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameManager
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -138,6 +141,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScript
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -158,16 +162,27 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 fda9fd459d18e1a5c3bce37a1612a988 Assembly-CSharp-firstpass.dll:.CapsuleCollider2D
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 6d5fe9f6adc0559e4aad6e6a612f1460 Assembly-CSharp-firstpass.dll:.LiquidGenerate
+afb84155126321616132809016ad7aa4 Assembly-CSharp.dll:.TimerControler
 0fc14196f9321088170d420968036a45 Assembly-CSharp-firstpass.dll:.LiquidManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScriptSuperLight
+dddd649e647459e01e1a58e9cc41950e Assembly-CSharp.dll:.shipManager
 b26c692579f8f19a7a11eecab6de1a96 Assembly-CSharp-firstpass.dll:.EllipseCollider2D
+dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.RotateWorld
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.Rotate
 701e09fe0804e758b2a6a23c5762ffab Assembly-CSharp-firstpass.dll:.RoundedBoxCollider2D
-dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.RotateWorld
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScriptSuperLight
-afb84155126321616132809016ad7aa4 Assembly-CSharp.dll:.TimerControler
 ced30e05882c86a594e1cd7d958c81c0 Assembly-CSharp.dll:.HUDTimeControler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SuperLightCollect
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreTextScript
-4c7845259cdbe85fad5717acbc330d18 Assembly-CSharp.dll:.uiManager
-674e75347d41f541d464b863c58c6d6b Assembly-CSharp.dll:.shipManager
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartGame
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainCameraScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GoToStartScreen
+20127d0edc5e07532efe641a4facbb31 Assembly-CSharp.dll:.CameraSwitch
+f5c151db3cf083522c7d93ee6a9b89f0 Assembly-CSharp-firstpass.dll:.CameraMover
+ada309b725b9ff4a56685ad566d80e53 Assembly-CSharp-firstpass.dll:.MyGUI
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.changeFirstTime
+1f5e5d32a397a14ea2238e622327a549 Assembly-CSharp.dll:.PauseMenu
+2670319893a8deaeb9ec8cbf2ba2225e Assembly-CSharp.dll:.LevelComplete
+0d2163643e1ee351c7b6247098238e47 Assembly-CSharp.dll:.Distance
+116a5190fae279fb0b95a9699a461783 Assembly-CSharp.dll:.Timer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SelectLevel
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BGSoundMusic
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.destroyFire
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitManager

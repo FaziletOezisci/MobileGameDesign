@@ -32,9 +32,10 @@ public class uiManager : MonoBehaviour {
 
     public void gameOverActivated(){
         gameOver = true;
-        foreach(Button button in buttons){
-            button.gameObject.SetActive(true);
-        }
+        //foreach(Button button in buttons){
+          //  button.gameObject.SetActive(true);
+        SceneManager.LoadScene("StartMenuScreen");
+
     }
 
     public void Play(){

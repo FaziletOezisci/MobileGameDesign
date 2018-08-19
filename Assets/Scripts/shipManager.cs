@@ -5,6 +5,7 @@ using UnityEngine;
 public class shipManager : MonoBehaviour {
 
     public uiManager ui;
+    public GameObject levelCompleteUI;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,7 +20,20 @@ public class shipManager : MonoBehaviour {
 	{
         if(collision.gameObject.tag == "destroyer"){
             Destroy(gameObject);
-            ui.gameOverActivated();
+            //ui.gameOverActivated();
+            levelCompleteUI.SetActive(true);
+        } else if(collision.gameObject.tag == "moveableWall"){
+            Destroy(gameObject);
+            //ui.gameOverActivated();
+            levelCompleteUI.SetActive(true);
+        } else if(collision.gameObject.tag == "fire1"){
+            Destroy(gameObject);
+            //ui.gameOverActivated();
+            levelCompleteUI.SetActive(true);
+        } else if(collision.gameObject.tag == "fire2"){
+            Destroy(gameObject);
+            //ui.gameOverActivated();
+            levelCompleteUI.SetActive(true);
         }
 	}
 }
